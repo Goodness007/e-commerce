@@ -1,0 +1,69 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+:root {
+    --bg-color: #d4d4d4;
+    --second-bg-color: #404041;
+    --text-color: #fff;
+    --main-color: #0a63a3;
+}
+
+.header {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 2rem 2%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.logo {
+    position: relative;
+    text-decoration: none;
+    color: var(--second-bg-color);
+    font-size: 2rem;
+    font-weight: 500;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.navbar {
+    margin-left: -70px;
+    position: relative;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.navbar a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: var(--second-bg-color);
+    font-size: 1rem;
+}
+
+.navbar a:hover{
+    border-bottom: 1px solid var(--second-bg-color);
+
+}
+
+.icons {
+    
+}
+
+.icons a {
+    text-decoration: none;
+    color: var(--second-bg-color);
+    padding: 5px;
+   transition: 0.5s;
+}
+
+.icons a:hover{
+    color: #7b7b7e;
+}
+

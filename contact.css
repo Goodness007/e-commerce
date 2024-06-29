@@ -1,0 +1,240 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+:root {
+    --bg-color: #d4d4d4;
+    --second-bg-color: #404041;
+    --text-color: #fff;
+    --main-color: #0a63a3;
+}
+
+.header {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 2rem 2%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border: 0.2px solid #c4c3c3;
+}
+
+.logo {
+    position: relative;
+    text-decoration: none;
+    color: var(--second-bg-color);
+    font-size: 2rem;
+    font-weight: 500;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.navbar {
+    margin-left: -70px;
+    position: relative;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.navbar a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: var(--second-bg-color);
+    font-size: 1rem;
+}
+
+.navbar a:hover{
+    border-bottom: 1px solid var(--second-bg-color);
+
+}
+
+
+.icons a {
+    text-decoration: none;
+    color: var(--second-bg-color);
+    padding: 5px;
+   transition: 0.5s;
+}
+
+.icons a:hover{
+    color: #7b7b7e;
+}
+
+
+.contact-form {
+    max-width: 30rem;
+    margin-left: 21.4%;
+    margin-bottom: 60px;
+}
+
+.contact-form h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 45px;
+    font-weight: 100;
+    letter-spacing: 1px;
+}
+
+
+
+.contact {
+    min-height: auto;
+    padding: 3rem;
+    overflow: hidden;
+ }
+
+ .contact form {
+    max-width: 45rem;
+    margin: 0 auto;
+    text-align: center;
+ } 
+
+ .contact form .input-box {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+ }
+
+ .contact form .input-boxs {
+    position: relative;
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 20px;
+ }
+
+ .contact form .input-boxs .input-fields {
+    position: relative;
+    width: 100%;
+    margin: .8rem 0;
+ }
+
+ .contact form .input-box .input-field {
+    position: relative;
+    width: 47.3%;
+    margin: .8rem 0;
+ }
+
+ .contact form .input-boxs .input-fields input, 
+ .contact form .textarea-field textarea {
+    width: 100%;
+    height: 100%;
+   padding: 8px;
+   border: 1px solid var(--second-bg-color);
+   
+ }
+
+ .contact form .input-box .input-field input, 
+ .contact form .textarea-field textarea {
+    width: 100%;
+    height: 100%;
+    padding: 8px;
+    border: 1px solid var(--second-bg-color);
+  
+ }
+
+ .contact form .input-boxs .input-fields input::placeholder, 
+ .contact form .textarea-field textarea::placeholder{
+    color: var(--second-bg-color);
+ }
+
+ .contact form .input-box .input-field input::placeholder, 
+ .contact form .textarea-field textarea::placeholder{
+    color: var(--second-bg-color);
+ }
+
+ 
+ .contact form .input-boxs .input-fields input:focus~.focus,
+ .contact form .input-box .input-field .input:valid~.focus,
+ .contact form .textarea-field textarea:focus~.focus,
+ .contact form .textarea-field textarea:valid~.focus {
+    width: 100%;
+ }
+
+ 
+ .contact form .input-box .input-field input:focus~.focus,
+ .contact form .input-box .input-field .input:valid~.focus,
+ .contact form .textarea-field textarea:focus~.focus,
+ .contact form .textarea-field textarea:valid~.focus {
+    width: 100%;
+ }
+
+ 
+  .textarea-field {
+   
+    margin-bottom: 20px;
+
+ }
+
+ .contact form .textarea-field textarea {
+    resize: none;
+ }
+
+ .contact form .btn-box.btn .btn {
+    cursor: pointer;
+ }
+
+ .btn-box {
+    position: relative;
+    display: flex;
+    width: 7rem;
+    height: 3rem;
+}
+
+.btn-box .btn{
+    position: relative;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 15rem;
+    height: 100%;
+    background: var(--second-bg-color);
+    border: 1px solid var(--second-bg-color);
+    font-size: 1rem;
+    color: var(--bg-color);
+    overflow: hidden;
+    z-index: 1;
+    transition: .5s;
+}
+
+.btn-box .btn:hover {
+    color: var(--second-bg-color);
+    background: transparent;
+    transform: scale(1.1);
+    font-size: 1.3rem;
+    border: 1px solid var(--text-color);
+}
+
+.loca-content {
+    margin-left: 40%;
+    padding: 30px;
+
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.loca-content h2 {
+    font-size: 2.3rem;
+    color: var(--second-bg-color);
+}
+
+.text {
+    margin-left: 22%;
+    padding: 30px;
+    max-width: 45rem;
+
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.text p {
+    color: var(--second-bg-color);
+    font-size: 18px;
+}
+
+.text .ww {
+    margin-left: 25%;
+}
+
